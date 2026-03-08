@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Admin Dashboard</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <aside class="sidebar">
+                <div class="dashboard-brand">
+                    <img
+                        src="logos/view-dashboard.svg"
+                        alt="Dashboard"
+                        class="logo-icon"
+                    />
+                    <h1>Dashboard</h1>
+                </div>
+                <nav>
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#"
+                                ><span class="material-symbols-outlined"
+                                    >home</span
+                                >Home</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#"
+                                ><span class="material-symbols-outlined"
+                                    >account_circle</span
+                                >Profile</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#"
+                                ><span class="material-symbols-outlined"
+                                    >chat</span
+                                >Messages</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#"
+                                ><span class="material-symbols-outlined"
+                                    >history</span
+                                >History</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#"
+                                ><span class="material-symbols-outlined"
+                                    >task</span
+                                >Tasks</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#"
+                                ><span class="material-symbols-outlined"
+                                    >groups</span
+                                >Communities</a
+                            >
+                        </li>
+                    </ul>
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#"
+                                ><span class="material-symbols-outlined"
+                                    >settings</span
+                                >Settings</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#"
+                                ><span class="material-symbols-outlined"
+                                    >support</span
+                                >Support</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#"
+                                ><span class="material-symbols-outlined"
+                                    >privacy_tip</span
+                                >Privacy</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <header class="header">
+                <div class="header-top">
+                    <div class="search-bar">
+                        <span class="material-symbols-outlined">search</span>
+                        <input type="text" id="search" name="search" />
+                    </div>
+                    <div class="user-info">
+                        <span class="material-symbols-outlined"
+                            >notifications</span
+                        >
+                        <img
+                            src="https://ui-avatars.com/api/?name=Morgan+Oakley&background=ffd166&color=000&rounded=true"
+                            alt="Avatar"
+                            class="avatar-small"
+                        />
+                        <span class="user-name">Morgan Oakley</span>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="greeting">
+                        <img
+                            src="https://ui-avatars.com/api/?name=Morgan+Oakley&background=ffd166&color=000&rounded=true"
+                            alt="Large Avatar"
+                            class="avatar-large"
+                        />
+                        <div class="greeting-text">
+                            <p class="small-text">Hi there,</p>
+                            <h2>Morgan Oakley (@morgan)</h2>
+                        </div>
+                    </div>
+                    <div class="header-actions">
+                        <button class="btn">New</button>
+                        <button class="btn">Upload</button>
+                        <button class="btn">Share</button>
+                    </div>
+                </div>
+            </header>
+
+            <main class="main-content">
+                <div class="projects-section">
+                    <h3 class="section-title">Your Projects</h3>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h4>Super Cool Project</h4>
+                            <p>
+                                Sed tempus ut lacus ut scelerisque. Suspendisse
+                                sollicitudin nibh erat, id facilisis felis
+                                accumsan nec.
+                            </p>
+                            <div class="card-actions">
+                                <span class="material-symbols-outlined"
+                                    >star_border</span
+                                >
+                                <span class="material-symbols-outlined"
+                                    >visibility</span
+                                >
+                                <span class="material-symbols-outlined"
+                                    >share</span
+                                >
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h4>Less Cool Project</h4>
+                            <p>
+                                Nullam condimentum ipsum ut lectus vehicula
+                                consectetur. Quisque sed dolor tincidunt,
+                                consectetur sapien et, facilisis dolor. Duis sem
+                                purus, dignissim ut sapien in, varius
+                                pellentesque lacus.
+                            </p>
+                            <div class="card-actions">
+                                <span class="material-symbols-outlined"
+                                    >star_border</span
+                                >
+                                <span class="material-symbols-outlined"
+                                    >visibility</span
+                                >
+                                <span class="material-symbols-outlined"
+                                    >share</span
+                                >
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h4>Impossible App</h4>
+                            <p>
+                                In hac habitasse platea dictumst. Vivamus dictum
+                                rutrum arcu, a placerat velit sagittis id.
+                            </p>
+                            <div class="card-actions">
+                                <span class="material-symbols-outlined"
+                                    >star_border</span
+                                >
+                                <span class="material-symbols-outlined"
+                                    >visibility</span
+                                >
+                                <span class="material-symbols-outlined"
+                                    >share</span
+                                >
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h4>Easy Peasy App</h4>
+                            <p>
+                                Etiam cursus eros ac efficitur fringilla.
+                                Vestibulum dignissim urna eget accumsan aliquam.
+                                Curabitur dignissim nisi in tortor commodo, ac
+                                bibendum magna tincidunt.
+                            </p>
+                            <div class="card-actions">
+                                <span class="material-symbols-outlined"
+                                    >star_border</span
+                                >
+                                <span class="material-symbols-outlined"
+                                    >visibility</span
+                                >
+                                <span class="material-symbols-outlined"
+                                    >share</span
+                                >
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h4>Ad Blocker</h4>
+                            <p>
+                                Quisque eget rutrum nisl. Nam augue justo,
+                                cursus vitae metus vel, pharetra hendrerit
+                                felis. Aliquam sed malesuada eros.
+                            </p>
+                            <div class="card-actions">
+                                <span class="material-symbols-outlined"
+                                    >star_border</span
+                                >
+                                <span class="material-symbols-outlined"
+                                    >visibility</span
+                                >
+                                <span class="material-symbols-outlined"
+                                    >share</span
+                                >
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h4>Money Maker</h4>
+                            <p>
+                                Praesent convallis, libero quis congue
+                                elementum, nunc ante faucibus sapien, ac
+                                scelerisque tortor purus sit amet ex.
+                                Pellentesque mollis nec sem vel aliquam.
+                            </p>
+                            <div class="card-actions">
+                                <span class="material-symbols-outlined"
+                                    >star_border</span
+                                >
+                                <span class="material-symbols-outlined"
+                                    >visibility</span
+                                >
+                                <span class="material-symbols-outlined"
+                                    >share</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="side-panel">
+                    <div class="announcements-section">
+                        <h3 class="section-title">Announcements</h3>
+                        <div class="panel-card announcements-card">
+                            <div class="announcement">
+                                <h5>Site Maintenance</h5>
+                                <p>
+                                    Vestibulum condimentum tellus lacus, in
+                                    accumsan elit maximus ac. Donec hendrerit
+                                    sodales congue...
+                                </p>
+                            </div>
+                            <div class="announcement">
+                                <h5>Community Share Day</h5>
+                                <p>
+                                    Nam vel lectus tincidunt, rutrum nulla eu,
+                                    ornare libero. Aliquam dictum accumsan
+                                    porttitor...
+                                </p>
+                            </div>
+                            <div class="announcement">
+                                <h5>Updated Privacy Policy</h5>
+                                <p>
+                                    Phasellus efficitur nisi eget elit
+                                    consectetur, eget condimentum ante auctor.
+                                    Cras fringilla sagittis sem in mattis...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trending-section">
+                        <h3 class="section-title">Trending</h3>
+                        <div class="panel-card trending-card">
+                            <div class="trending-item">
+                                <img
+                                    src="https://ui-avatars.com/api/?name=tegan&background=ffb3c6&color=000&rounded=true"
+                                    alt="tegan"
+                                    class="avatar-small"
+                                />
+                                <div class="trending-info">
+                                    <p class="handle">@tegan</p>
+                                    <p class="project-name">
+                                        World Peace Builder
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="trending-item">
+                                <img
+                                    src="https://ui-avatars.com/api/?name=morgan&background=ffd166&color=000&rounded=true"
+                                    alt="morgan"
+                                    class="avatar-small"
+                                />
+                                <div class="trending-info">
+                                    <p class="handle">@morgan</p>
+                                    <p class="project-name">
+                                        Super Cool Project
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="trending-item">
+                                <img
+                                    src="https://ui-avatars.com/api/?name=kendall&background=4d908e&color=fff&rounded=true"
+                                    alt="kendall"
+                                    class="avatar-small"
+                                />
+                                <div class="trending-info">
+                                    <p class="handle">@kendall</p>
+                                    <p class="project-name">
+                                        Life Changing App
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="trending-item">
+                                <img
+                                    src="https://ui-avatars.com/api/?name=alex&background=ff9f1c&color=000&rounded=true"
+                                    alt="alex"
+                                    class="avatar-small"
+                                />
+                                <div class="trending-info">
+                                    <p class="handle">@alex</p>
+                                    <p class="project-name">No Traffic Maker</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </main>
+        </div>
+    </body>
+</html>
